@@ -96,7 +96,7 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
     .nav ul{font-weight:bold;font-size:0.8em;line-height:1;letter-spacing:2px;text-transform:uppercase}
     .nav li{display:inline-block}
     .lt-ie8 .nav li{display:inline}
-    .nav a{position:relative;display:block;padding:14px 20px;-webkit-border-radius:25px;border-radius:25px;color:#2c3e50;text-decoration:none;-webkit-transition:all 0.4s ease;-moz-transition:all 0.4s ease;-o-transition:all 0.4s ease;transition:all 0.4s ease;behavior: url(ie-css3.htc);}
+    .nav a{position:relative;display:block;padding:14px 20px;-webkit-border-radius:25px;border-radius:25px;color:#2c3e50;text-decoration:none;-webkit-transition:all 0.4s ease;-moz-transition:all 0.4s ease;-o-transition:all 0.4s ease;transition:all 0.4s ease}
     .js .nav a{outline:none}
     .nav a:hover{color:#ecf0f1}
     .nav .active{background:#2C3E50;color:#ecf0f1}
