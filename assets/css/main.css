@@ -260,6 +260,11 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
 
 .intro-cont-wrapper{behavior:url("assets/plugins/CSSPIE/PIE.htc")}
 
+/* section specify */
+#resume, #research{height:auto}
+#resume .scroll-b, #awards .scroll-b, #projects .scroll-b, #research .scroll-b{height:auto}
+
+#awards, #projects{width:940px;height:auto;}
 
 @media screen and (max-width:940px){
 
@@ -279,8 +284,9 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
 
     .js .main-i{height:auto}
 
-    .js .main-sec-b, .js .aside-sec-b, .js .secondary-aside-sec-b{position:static;width:auto;height:auto}
+    .js .main-sec-b, .js .aside-sec-b, .js .secondary-aside-sec-b{visibility:visible;position:static;width:100%;height:auto}
     .js .main-sec-b .scroll-b, .js .aside-sec-b .scroll-b, .js .secondary-aside-sec-b .scroll-b{height:auto}
+	.js .aside-sec-b, .js .secondary-aside-sec-b{float:none;}
     .main-sec-b, .aside-sec-b, .secondary-aside-sec-b{-webkit-transform:rotateY(0deg);-moz-transform:rotateY(0deg);-o-transform:rotateY(0deg);-ms-transform:rotateY(0deg);transform:rotateY(0deg)}
     .main-sec-b.active-sec, .aside-sec-b.active-sec, .secondary-aside-sec-b.active-sec, .main-sec-b.inactive-sec, .aside-sec-b.inactive-sec, .secondary-aside-sec-b.inactive-sec{-webkit-animation:none;-moz-animation:none;-o-animation:none;-ms-animation:none;animation:none}
 
@@ -298,27 +304,6 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
 
 }
 
-@media screen and (max-width:400px){
-
-    .sec-cont{padding:15px}
-
-    .col{padding:0 0 15px}
-
-    .experience{padding:0;background-position:10px 0}
-    .experience .item{float:none;width:100%;padding:0 0 15px 40px;text-align:left}
-        .experience .item:before{left:0;top:0}
-    .experience .alt-item{float:none}
-    .experience .alt-item:before{left:0}
-    .experience .period{position:static;right:0;top:0;width:auto;margin:0 0 10px}
-    .experience .alt-item .period{left:0;text-align:left}
-
-    .skills h3{width:100px;font-size:0.9em}
-    .skills .point{width:10px;height:10px;margin-right:3px}
-    
-    .works{padding:15px 0}
-    .works .item{margin:0}
-
-}
 
 @-webkit-keyframes showSec{
     0%{-webkit-transform:rotateY(180deg)}
@@ -393,8 +378,4 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
     100%{transform:scale(1);opacity:1}
 }
 
-/* section specify */
-#resume{height:auto}
-#resume .scroll-b, #awards .scroll-b, #projects .scroll-b{height:auto}
 
-#awards, #projects{width:940px;height:auto;}
