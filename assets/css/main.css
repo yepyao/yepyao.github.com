@@ -258,7 +258,6 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
     .info h3{margin:0 0 5px}
     .info p, .info address{margin:0 0 20px}
 
-.intro-cont-wrapper{behavior:url("../plugins/CSSPIE/PIE.htc")}
 
 /* section specify */
 #resume, #research{height:auto}

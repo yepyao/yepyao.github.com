@@ -1,5 +1,36 @@
-$(document).ready(function() {
 
+$(document).ready(function() {
+	function addPIE(){
+		if (window.PIE) {
+			$('.nav a').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			$('.intro-cont-wrapper').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			$('.btn').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			$('.point').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			$('.prev-btn').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			$('.next-btn').each(function() {
+				PIE.detach(this);
+				PIE.attach(this);
+			});
+			
+		}
+	}
+	addPIE();
+	
     // Show/hide main nav
     $('.nav-trigger').click(function() {
         $(this).toggleClass('nav-trigger-a');
@@ -146,6 +177,8 @@ $(document).ready(function() {
                 $('.main-sec-b').eq($(this).parent().index()).addClass('active-sec');
                 $('.aside-sec-b').eq($(this).parent().index()).addClass('active-sec');
                 $('.secondary-aside-sec-b').eq($(this).parent().index()).addClass('active-sec');
+				
+				addPIE();
             });
 
         }
