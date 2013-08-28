@@ -194,8 +194,8 @@ label.inp-error{overflow:hidden;display:none;width:0;height:0}
     .experience .item:hover:before{background:#ecf0f1}
 .experience .alt-item{float:right;padding-right:0;padding-left:40px;text-align:left}
 .experience .alt-item:before{right:auto;left:-10px}
-.experience .period{position:absolute;right:-140px;top:2px;width:100px;text-align:left}
-.experience .alt-item .period{right:auto;left:-140px;text-align:right}
+.experience .period{position:absolute;right:-240px;top:2px;width:200px;text-align:left}
+.experience .alt-item .period{right:auto;left:-240px;text-align:right}
 .experience h3{margin:0 0 10px}
 .experience p{margin:0}
 
