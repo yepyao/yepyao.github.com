@@ -49,6 +49,7 @@ $(document).ready(function() {
         $(this).addClass('hover').siblings().removeClass('hover');
     });
 
+/*
     // Google map setup
     // Create an array of styles.
     var stylesArray = [
@@ -64,7 +65,7 @@ $(document).ready(function() {
             ]
         }
     ],
-        
+
     // Latitude and longitude for your location goes here
     lat = 31.02, 
     lng = 121.43,
@@ -107,7 +108,7 @@ $(document).ready(function() {
             }
         }
     });
-
+*/
     // Form submit
     var mesShowDelay = 5000;
     $(".contact-form").submit(function(e){
